@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(215, 217, 241);
+  padding: 20px;
+}
+.main__calculate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#button {
+  padding: 10px;
+  background-color: lightskyblue;
+  border-radius: 10px;
+}
+
+#bday {
+  padding: 10px;
+  border-radius: 10px;
+}

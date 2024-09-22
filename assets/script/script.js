@@ -32,6 +32,13 @@ btn.addEventListener("click", function () {
   // преобразуем результат
   const resDate = Math.floor(cntDayTime / (1000 * 60 * 60 * 24));
 
+  // если разница в минусе, то ошибка
+  if (resDate < 0) {
+    result.style.color = "red";
+    return (result.textContent =
+      "Пожалуйста, введите дату рождения в будущем!");
+  }
+
   let textDay = "";
   console.log(textDay);
 
